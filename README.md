@@ -1,4 +1,4 @@
-# Nodejs Express Mysql Sequelize NORSA Backend
+# Nodejs Express Mysql Sequelize Backend
 
 Database - MySQL (Setup local or test instance for development use, setup in AWS RDS for prod)
 Framework - nodejs (express, pm2) - Run with pm2 to manage uptime/restarts/long term deploys
@@ -30,10 +30,3 @@ $ npm start
 | /api/auth/signup                  | POST      | NO      |
 | /api/auth/login                   | POST      | NO      |
 | /api/auth/logout                  | GET       | NO      |
-| /api/auth/verification-email      | POST      | NO      |
-| /api/auth/confirm-email           | GET       | NO      |
-| /api/auth/forgot-password         | POST      | NO      |
-| /api/auth/reset-password          | POST      | NO      |
-| /api/auth/change-password         | POST      | NO      |
-| /api/auth/validate-reset-password | POST      | NO      |
-| /api/auth/refresh-session         | POST      | NO      |
